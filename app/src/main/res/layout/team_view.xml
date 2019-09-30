@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.myapplication.ui.MatchViewModel" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ic_team"
+            android:layout_width="40pt"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_team_barca" />
+
+        <TextView
+            android:id="@+id/teamNameLabel"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</layout>

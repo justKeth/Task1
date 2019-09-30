@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="match_preview">Match Preview</string>
+    <string name="game_week">Gameweek 3</string>
+    <string name="match_date_stadium">2 September 2018 Camp Nou Stadium</string>
+    <string name="overview">Overview</string>
+    <string name="statistic">Statistic</string>
+    <string name="line_up">Line up</string>
+    <string name="half_text">1st Half</string>
+    <string name="half_goals">3:2</string>
+</resources>

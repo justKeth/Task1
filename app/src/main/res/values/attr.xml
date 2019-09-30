@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TeamView-->
+    <declare-styleable name="TeamView">
+        <attr name="name" format="string|reference"/>
+        <attr name="nameOfTeamOne" format="string|reference"/>
+        <attr name="nameOfTeamTwo" format="string|reference"/>
+
+    </declare-styleable>
+
+    <!--GoalView-->
+    <declare-styleable name="GoalView">
+        <attr name="name"/>
+        <attr name="nameOfPlayer" format="string|reference"/>
+    </declare-styleable>
+
+    <!--SubstitutionView-->
+    <declare-styleable name="SubstitutionView">
+        <attr name="name"/>
+        <attr name="nameOfPlayerOne" format="string|reference"/>
+        <attr name="nameOfPlayerTwo" format="string|reference"/>
+    </declare-styleable>
+</resources>
